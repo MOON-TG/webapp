@@ -17,6 +17,7 @@
 
 body {
   color: rgba(var(--color-primary-rgb), 1);
+  background-color: orange;
 }
 
 a {
@@ -211,7 +212,7 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Desktop Navigation 
+# Desktop Navigation
 --------------------------------------------------------------*/
 @media (min-width: 1280px) {
   .navbar {
