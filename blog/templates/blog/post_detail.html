@@ -87,8 +87,14 @@
       <a class="badge bg-secondary text-decoration-none link-light" href="#!">Freebies</a>
       </header>
       <!-- Preview image figure-->
+      {% if post.head_image %}
       <figure class="mb-4"><img class="img-fluid rounded" src="{{ post.head_image.url }}"
           alt="..." /></figure>
+          {% endif %}
+          {% if post.head_image2 %}
+      <figure class="mb-4"><img class="img-fluid rounded" src="{{ post.head_image2.url }}"
+          alt="..." /></figure>
+          {% endif %}
       <!-- Post content-->
       <section class="mb-5">
         <p class="fs-5 mb-4">Science is an enterprise that should be cherished as an activity of the free human mind.
